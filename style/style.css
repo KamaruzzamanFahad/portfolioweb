@@ -2,25 +2,25 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
 p{
     color: #757575;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 60px 30px 60px;
+    padding: 0px 96px 30px 136px;
     
 
 }
 
 nav > h3{
-    font-size: 45px;
+    font-size: 37px;
     font-weight: 800;
 }
 
@@ -31,7 +31,7 @@ nav > ul{
 
 nav > ul >li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 47px;
 }
  .pc{
      color: #FD6E0A;
@@ -40,7 +40,7 @@ nav > ul >li{
  nav > ul > li > a{
      text-decoration: none;
      color: #474747;
-     font-size: 20px;
+     font-size: 18px;
  }
 
  #hireme , #download , #contact{
@@ -49,8 +49,8 @@ nav > ul >li{
      padding: 15px 30px;
      border: 0px;
      border-radius: 5px;
-     font-weight: bold;
-     font-size: 20px;
+     font-weight: 400;
+     font-size: 18px;
  }
 
  header{
@@ -59,10 +59,12 @@ nav > ul >li{
      background-repeat: no-repeat;
      background-position: bottom right;
      background-size: 600px;
+     padding: 0;
+     margin: 0;
  }
 
 .headtext{
-    padding: 70px 0px 0px 120px ;
+    padding: 55px 0px 0px 140px ;
     max-width: 500px;
 }
 
@@ -74,6 +76,15 @@ nav > ul >li{
 .head > img{
     width: 420px;
     padding-right: 20px;
+}
+
+.devloper{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80px;
+    margin-left: 38px;
+    
 }
 
 /* main section  */
@@ -115,4 +126,28 @@ main > div > h3{
     margin-top: 0;
     color: #474747;
     text-align: center;
+}
+.whatdo{
+    padding: 0 120px;
+}
+.card{
+    display: flex;
+}
+.card > div{
+    background-color: #ffffff;
+    margin: 0 7px;
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #e4e4e4;
+}
+
+
+.myinfo{
+    display: flex;
+}
+
+
+.fota{
+    display: flex;
 }
